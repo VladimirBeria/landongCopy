@@ -205,6 +205,10 @@ figcaption {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./lower-banner-img__bitboy.jpg");
 }
 
+.section.cc-cta.bacon {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./lower-banner-img__bacon.jpg");
+}
+
 .section.cc-store-home-wrap {
   display: block;
   margin-right: auto;
@@ -621,6 +625,7 @@ figcaption {
 }
 
 .intro-header {
+  position: relative;
   display: flex;
   overflow: visible;
   height: 530px;
@@ -644,6 +649,9 @@ figcaption {
 .intro-header.bitboy {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./upper-banner-img__bitboy.jpg");
 }
+.intro-header.bacon {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./upper-banner-img__bacon.jpg");
+}
 
 .intro-header.cc-subpage {
   height: 480px;
@@ -664,8 +672,14 @@ figcaption {
 }
 
 .intro-content.cc-homepage.bb {
-  width: 90%;
-  margin-bottom: -225px;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: unset;
+  color: #FFF;
+  padding: 40px 50px 60px;
+  background-color: #239c48;
+  box-shadow: 0 0 20px -3px #3a3434;
 }
 
 @media screen and (max-width: 760px){
