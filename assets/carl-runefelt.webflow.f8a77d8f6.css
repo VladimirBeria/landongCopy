@@ -663,6 +663,17 @@ figcaption {
   margin-bottom: -116px;
 }
 
+.intro-content.cc-homepage.bb {
+  width: 90%;
+  margin-bottom: -225px;
+}
+
+@media screen and (max-width: 760px){
+  .intro-content.cc-homepage.bb {
+    margin-bottom: 0;
+  }
+}
+
 .motto-wrap {
   width: 80%;
   margin-right: auto;
